@@ -1,0 +1,178 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  text-align: center;
+  margin: 0;
+}
+
+h1, h2, h3 {
+  margin: 0;
+}
+
+.App-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  background-color: #282c34;
+  color: white;
+}
+
+.App-title {
+  font-size: 4rem;
+  line-height: 80%;
+  margin-bottom: 2rem;
+}
+
+.App-subtitle {
+  font-size: 1.5rem;
+}
+
+.App-info {
+  max-width: 60rem;
+  font-size: 1.15rem;
+}
+
+.Warning {
+  color: red;
+}
+
+.Main-Container {
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  background-color: #e0e0e0;
+  padding-top: 2rem;
+  padding-bottom: 4rem;
+}
+
+.Button {
+  cursor: pointer;
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 34px;
+  user-select: none;
+  transition-duration: 0.4s;
+}
+
+.Button:hover {
+  background-color: green;
+}
+
+.Button.Blue {
+  background-color: #4c89af;
+}
+
+.Button.Blue:hover {
+  background-color: rgb(0, 0, 183);
+}
+
+.Button.Red {
+  background-color: #df2826;
+}
+
+.Button.Red:hover {
+  background-color: #9a201e;
+}
+
+.Button.Grey {
+  background-color: #adadad;
+  color: black;
+}
+
+.Button.Grey:hover {
+  background-color: #5e5e5e;
+}
+
+.Button:active {
+  background-color: #cccccc;
+}
+
+.App-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  background-color: #282c34;
+  color: white;
+  font-size: 1.15rem;
+}
+
+.App-footer a {
+  color: red;
+  padding-left: .25rem;
+}
+
+.loader {
+  align-self: center;
+  border: 16px solid #f3f3f3; /* Light grey */
+  border-top: 16px solid #3498db; /* Blue */
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.CertInput {
+  background-color: white;
+  border: 1px solid black;
+  padding-left: 1rem;
+  margin-bottom: 2rem;
+  font-size: 40px;
+  text-align: center;
+  width: 50%;
+}
+
+.CertSelect {
+  border: none;
+  padding-left: 1rem;
+  background: unset;
+  border-bottom: 1px solid;
+  margin-bottom: 2rem;
+  font-size: 20px;
+  text-align: center;
+  width: 650px;
+  height: 3rem;
+}
+
+.inputLabel {
+  font-size: 30px;
+  align-self: start;
+  margin-left: 24%;
+}
+
+.radio {
+  font-size: 30px;
+}
+
+.checkbox {
+  font-size: 30px;
+}
+
+.headerInputLabel {
+  margin-top: 1rem;
+  text-align: left;
+  font-size: 30px;
+}
+
+.fileInputLabel {
+  text-align: left;
+  font-size: 30px;
+}
+
+.fileInput {
+  margin-bottom: 2rem;
+  text-align-last: center;
+  font-size: 24px;
+}
